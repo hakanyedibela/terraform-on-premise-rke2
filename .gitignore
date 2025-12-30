@@ -1,7 +1,18 @@
-/cluster/.terraform/
-/cluster/.terraform.lock.hcl
-/cluster/kubeconfig.yaml
-/cluster/terraform.tfstate
-/cluster/terraform.tfstate.backup
-/cluster/.terraform.tfstate.lock.info
-.idea
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Kubernetes config
+kubeconfig.yaml
+*.kubeconfig
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
